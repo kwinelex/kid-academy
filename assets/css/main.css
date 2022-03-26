@@ -117,7 +117,7 @@ section .carousel{
 .card-feature{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin: 100px 0;
 }
