@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+.navbar{
+    text-align: end;
+    padding: 20px 10px;
+    border-bottom: #49537117 solid 1px;
+}
+.navbar ul li{
+    display: inline;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #495371;
+    margin: 0 10px;
+    padding: 5px;
+}
+.navbar ul .logo{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+}
+
+/* Carousel */
+.content-layout{
+    overflow: scroll;
+    height: 100vh;
+}
+/* .content-layout::-webkit-scrollbar{
+    transition: 0.5s;
+} */
+section{
+    padding: 50px;
+    text-align: center;
+}
+section .carousel h2, h3{
+    color: #495371;
+    margin: 10px 0;
+}
+section .carousel h2{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+        animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+section .carousel .get-start{
+    margin-top: 20px;
+    padding: 20px 0;
+}
+section .carousel .get-start a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #495371;
+    padding: 10px;
+}
+section .carousel .get-start a:hover{
+    color: #495371;
+    background-color: transparent;
+    border: #495371 solid 1px;
+    box-shadow: #495371 4px 4px 0px 1px;
+    transition: box-shadow 0.5s;
+}
+section .carousel{
+    /* background-color: #74959A; */
+    min-height: 300px;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    text-decoration: none;
+    color: #495371;
+    border: #495371 solid 1px;
+    margin: 10px;
+    padding: 10px;
+    min-height: 250px;
+    max-width: 200px;
+}
+.card:hover{
+    background-color: transparent;
+    border: #495371 solid 1px;
+    box-shadow: #495371 4px 4px 0px 1px;
+    transition: box-shadow 0.5s;
+}
+.card .card-title{
+    font-weight: bold;
+    border-bottom: #495371 solid 1px;
+    padding: 10px;
+}
+.card-text{
+    text-align: start;
+    padding: 10px 0;
+}
+
+.card-feature{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 100px 0;
+}
+.card-feature .card-img{
+    filter: grayscale(1);
+    border-radius: 100%;
+    border: #495371 double 2px;
+    width: 140px;
+    height: 140px;
+}
+.card-feature .card-detail{
+    color: #495371;
+    text-align: start;
+    margin-left: 50px;
+    width: 500px;
+}
+ 
+footer .footer-wrapper{
+    background-color: #495371;
+    opacity: 50%;
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+footer .footer-wrapper h2, footer .footer-wrapper p{
+    color: #FFFFFF;
+    margin: 10px 0;
+}
