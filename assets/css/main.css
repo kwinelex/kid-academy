@@ -118,6 +118,7 @@ section .carousel{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 100px 0;
 }
 .card-feature .card-img{
