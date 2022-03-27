@@ -228,7 +228,7 @@ footer .footer-wrapper h2, footer .footer-wrapper p{
     color: #495371;
 }
 .instructor-img{
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     border-radius: 100%;
     border: #495371 double 2px;
     width: 140px;
