@@ -1,0 +1,24 @@
+{
+  "name": "kid-academy",
+  "version": "1.0.0",
+  "description": "free course online",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwinelex/kid-academy.git"
+  },
+  "author": "elexcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwinelex/kid-academy/issues"
+  },
+  "homepage": "https://github.com/kwinelex/kid-academy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
